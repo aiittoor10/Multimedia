@@ -1,0 +1,29 @@
+.contenedor {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.cont1, .cont2, .cont3, .cont4 {
+    margin: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+}
+
+audio {
+    width: 300px;
+}
+
+video {
+    width: 400px;
+}
+
+.cont1, .cont3 {
+    background-color: #f0f0f0;
+}
+
+.cont2, .cont4 {
+    background-color: #e6e6e6;
+}
